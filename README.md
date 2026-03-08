@@ -1,4 +1,4 @@
-# 👁️ Sauron.3d Edition - Klipper Custom ROM
+# 👁️ Sauron.3d  - Klipper v0.13 Custom ROM
 
 ![Version](https://img.shields.io/badge/Version-v0.13.0-orange?style=for-the-badge)
 ![Hardware](https://img.shields.io/badge/Hardware-Biqu_Hurakan_%7C_Manta_M4P-blue?style=for-the-badge)
@@ -11,12 +11,12 @@ ROM personalizada para **Biqu Hurakan**. Plug & Play, sin errores de pantalla y 
 * **Optimizada para BMG:** Configuración de extrusor lista para el upgrade.
 
 ---
-
+*********Hace una copia del printer.cfg*********
 ## ⚙️ Configuración del Extrusor (¡IMPORTANTE!)
 Esta ROM viene configurada por defecto para un extrusor **BMG**. 
 
 ⚠️ **Si tenés el extrusor original (Stock):**
-Debés entrar a tu `printer.cfg`, **BORRAR** completamente la sección de `[extruder]` y reemplazarla por la configuración de fábrica (Stock) para asegurar que el `rotation_distance` y la dirección del motor sean los correctos.
+Debés entrar a tu `printer.cfg`, **BORRAR** completamente la sección de `[extruder]`.
 
 ---
 
