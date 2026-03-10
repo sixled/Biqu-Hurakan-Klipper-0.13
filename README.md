@@ -18,9 +18,9 @@ Esta ROM viene configurada por defecto para un extrusor BMG.
 
 Si tenés el extrusor original (Stock) o perdiste tu backup:
 
-    Entrá a la interfaz web (Mainsail/Fluidd).
+    luego de actualizar Entrá a la interfaz web (Mainsail/Fluidd).
 
-    Debés BORRAR completamente la sección de [extruder].
+    Debés BORRAR completamente la sección de [extruder] del archivo printer.cfg que se encuentra en machine .
     Hacer Home y calibra la cama
     Coloca en la consola PROBE_CALIBRATE y configura tu z-offset
     calibrar antes de imprimir para evitar daños en la cama.
