@@ -21,8 +21,9 @@ Si tenés el extrusor original (Stock) o perdiste tu backup:
     Entrá a la interfaz web (Mainsail/Fluidd).
 
     Debés BORRAR completamente la sección de [extruder].
-
-    Asegurate de configurar z_offset = 2.0 en tu nueva configuración y calibrar antes de imprimir para evitar daños en la cama.
+    Hacer Home y calibra la cama
+    Coloca en la consola PROBE_CALIBRATE y configura tu z-offset
+    calibrar antes de imprimir para evitar daños en la cama.
 
 🚀 Instalación Paso a Paso
 1. Flash MCU (Placa Base)
@@ -55,7 +56,7 @@ Para cambiar el fondo de la interfaz web:
 
     Abrí la carpeta llamada Backgrounds.
 
-    Subí tu imagen (⚠️ Solo formato .jpg).
+    Subí tu imagen (⚠️ Solo formato .jpg). se debe llamar fondo.jpg luego mantene apretado la tecla Control + F5 para ver el cambio
 
 📸 Comunidad y Soporte
 
