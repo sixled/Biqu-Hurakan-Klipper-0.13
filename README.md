@@ -59,7 +59,9 @@ Para cambiar el fondo de la interfaz web:
 
     
 Configuracion Red Wifi :  Conecta tu microSD  con el adaptador a la pc  y Modifica el archivo llamado  wifi.conf  (NO formatees la microsd )prende la impresora 3d. Cuando escuches un pitido es porque ya te tomo los cambios y puedes ver tu ip en el menu Network.
+
 (Hostpot) Muy pronto subire una app para que puedas configurar la red wifi sin sacar la microSd de la impresra.
+
 *El diagnostigador de Microprobe analiza si tiene alguna falla al retraer o desplegar ademas tambien te dice que version es tu microprobe.
 
 
