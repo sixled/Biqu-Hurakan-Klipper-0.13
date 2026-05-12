@@ -1,4 +1,4 @@
-👁️ Sauron.3d  - Klipper v0.13 Custom ROM
+👁️ Sauron.3d  - Klipper v0.13.6 hurakanv2 Debian 13 Custom ROM
 
 ROM personalizada para Biqu Hurakan. Plug & Play, sin errores de pantalla y optimizada para la comunidad.
 ✨ Características Principales
@@ -7,7 +7,6 @@ ROM personalizada para Biqu Hurakan. Plug & Play, sin errores de pantalla y opti
 
     KIAUH Ready: Actualizaciones fáciles de todo el ecosistema Klipper.
 
-    Optimizada para BMG: Configuración de extrusor lista para el upgrade.
 
 ⚠️ ¡IMPORTANTE! Antes de Empezar
 
@@ -16,11 +15,9 @@ Hacé una copia de seguridad de tu archivo printer.cfg actual.
 
 Esta ROM viene configurada por defecto para un extrusor BMG.
 
-Si tenés el extrusor original (Stock) o perdiste tu backup:
+Si  perdiste tu backup:
 
     luego de actualizar Entrá a la interfaz web (Mainsail/Fluidd).
-
-    Debés BORRAR completamente la sección de [extruder] del archivo printer.cfg que se encuentra en machine .
     Hacer Home y calibra la cama
     Coloca en la consola PROBE_CALIBRATE y configura tu z-offset
     calibrar antes de imprimir para evitar daños en la cama.
@@ -47,6 +44,8 @@ Si tenés el extrusor original (Stock) o perdiste tu backup:
 3. Configuración Final
 
     Entrá a la interfaz web y reemplazá el printer.cfg genérico por el tuyo.
+   Ademas debes de agregarle al principio de todo [Include base/hurakanv2.cfg] Agregaras muchas funciones necesarias para que te ande.
+   incluyendo un diagnostigador del sensor de calibracion de cama.
 
 🎨 Personalización del Fondo (Mainsail)
 
@@ -54,14 +53,18 @@ Para cambiar el fondo de la interfaz web:
 
     Entrá a la sección Machine en el menú lateral.
 
-    Abrí la carpeta llamada Backgrounds.
+    Abrí la carpeta llamada wallapepers.
 
     Subí tu imagen (⚠️ Solo formato .jpg). se debe llamar fondo.jpg luego mantene apretado la tecla Control + F5 para ver el cambio
+
+    
+Configuracion Red Wifi :  Conecta tu microSD  con el adaptador a la pc  y Modifica el archivo llamado  wifi.conf  (NO formatees la microsd )prende la impresora 3d. Cuando escuches un pitido es porque ya te tomo los cambios y puedes ver tu ip en el menu Network.
+(Hostpot) Muy pronto subire una app para que puedas configurar la red wifi sin sacar la microSd de la impresra.
+*El diagnostigador de Microprobe analiza si tiene alguna falla al retraer o desplegar ademas tambien te dice que version es tu microprobe.
+
 
 📸 Comunidad y Soporte
 
     Instagram: @Sauron.3d
 
     Reportes: Si encontrás un error, abrí un "Issue" aquí en GitHub.
-
-    Aviso: Verificá siempre que tu hardware esté en condiciones antes del flasheo.
