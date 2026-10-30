@@ -64,7 +64,7 @@ Opcion 1 -  Instala la app android y luego enciende el hotspot de la impresora  
 
 **Para usar el hotspot ve al menu conectividad y activa el hospot .  
 La impresora solo puede usar la red wifi o el  hostpot a la vez  no todo junto.
-la contraseña del hotspot es hurakanv2.
+la contraseña del hotspot es hurakanv2
 
 Opcion 2 -** Conecta tu microSD  con el adaptador a la pc  y Modifica el archivo llamado  system.cfg en donde dice WIFI-SSID y PASSW  (***NO formatees la microsd **** )prende la impresora 3d y coloca la microSD  luego en el menú Network veras la ip .
 
